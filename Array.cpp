@@ -9,5 +9,8 @@ int main ()
    int datamu[5];
    // cara akses (membaca atau mengambil isi array)
    cout << "isi data kedua : " << dataku[1] << endl;
-   
+
+   // mengisi array
+   dataku[1] = 200;
+   cout << "isi data kedua setelah diubah : " << dataku[1] << endl;
 }
