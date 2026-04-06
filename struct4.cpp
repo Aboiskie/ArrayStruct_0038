@@ -36,8 +36,9 @@ int main()
     }
 
     cout << "Data Mahasiswa" << endl;
-    for(int i = 0; i < 3; i++)
+    for(int i = 0; i <= 2; i ++)
     {
+        cout << "Data Mahasiswa ke-" << (i + 1) << endl;
         cout << "Nama : " << mhs[i].nama << endl;
         cout << "Kota : " << mhs[i].alamat.Kota << endl;
         cout << "Desa : " << mhs[i].alamat.Desa << endl;
