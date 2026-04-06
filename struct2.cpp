@@ -25,6 +25,18 @@ int main()
     cin >> mhs.alamat;
     cout << "isikan data umur :";
     cin >> mhs.umur;
+    
+
+
+    //deklarasi variabel struct
+    mahasiswa mhs;
+    // mengisi  data
+    cout << "isikan data nama :";
+    cin >> mhs.nama;
+    cout << "isikan data alamat :";
+    cin >> mhs.alamat;
+    cout << "isikan data umur :";
+    cin >> mhs.umur;
 
     //menampilkan data
     cout << "Data Mahasiswa" << endl;
