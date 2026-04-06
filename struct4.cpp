@@ -30,7 +30,9 @@ int main()
         getline(cin, mhs[i].alamat.Desa);
         cout << "Isikan Data Usia : ";
         cin >> mhs[i].umur;
-        cin.ignore(); // Membersihkan buffer input
+        cin.ignore(); 
+        
+        // Membersihkan buffer input
     }
 
     cout << "Data Mahasiswa" << endl;
